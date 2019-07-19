@@ -7,6 +7,7 @@ import java.util.HashMap;
 
 @Component
 public class ResultMap extends HashMap<String, Object> {
+
     public ResultMap() {
     }
 

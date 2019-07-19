@@ -117,6 +117,8 @@ public class ShiroConfig {
 
     }
 
+
+
     @Bean
     public AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor(SecurityManager securityManager) {
 
@@ -131,6 +133,7 @@ public class ShiroConfig {
     public LifecycleBeanPostProcessor lifecycleBeanPostProcessor() {
 
         return new LifecycleBeanPostProcessor();
+
     }
 
 

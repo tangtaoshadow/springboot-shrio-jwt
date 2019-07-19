@@ -28,8 +28,10 @@ public class AdminController {
     @GetMapping("/getUser")
     @RequiresRoles("admin")
     public ResultMap getUser() {
+
         List<String> list = userMapper.getUser();
         return resultMap.success().code(200).message(list);
+
     }
 
     /**

@@ -46,12 +46,21 @@
         </dependency>
 
 
-        <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-spring -->
+        <!-- 取消 shiro-spring -->
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.shiro/shiro-spring &ndash;&gt;-->
+        <!--<dependency>-->
+        <!--    <groupId>org.apache.shiro</groupId>-->
+        <!--    <artifactId>shiro-spring</artifactId>-->
+        <!--    <version>1.4.1</version>-->
+        <!--</dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/org.apache.shiro/shiro-spring-boot-web-starter -->
         <dependency>
             <groupId>org.apache.shiro</groupId>
-            <artifactId>shiro-spring</artifactId>
+            <artifactId>shiro-spring-boot-web-starter</artifactId>
             <version>1.4.1</version>
         </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
         <dependency>
@@ -59,6 +68,7 @@
             <artifactId>java-jwt</artifactId>
             <version>3.8.1</version>
         </dependency>
+
 
 
 

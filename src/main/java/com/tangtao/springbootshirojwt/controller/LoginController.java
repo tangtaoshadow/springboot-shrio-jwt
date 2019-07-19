@@ -39,6 +39,7 @@ public class LoginController {
 
             // 返回token
             return resultMap.success().code(200).message(JWTUtil.createToken(username));
+
             // return resultMap.success().code(200).message("验证");
         }
 

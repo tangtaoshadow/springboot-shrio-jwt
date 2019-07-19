@@ -90,13 +90,14 @@ public class CustomRealm extends AuthorizingRealm {
 
         // 每个用户可以设置新的权限
         String permission = userMapper.getPermission(username);
-
         Set<String> roleSet = new HashSet<>();
         Set<String> permissionSet = new HashSet<>();
+
         // 需要将 role, permission 封装到 Set 作为 info.setRoles(), info.setStringPermissions() 的参数
         roleSet.add(role);
         permissionSet.add(rolePermission);
         permissionSet.add(permission);
+
         // 设置该用户拥有的角色和权限
         info.setRoles(roleSet);
         info.setStringPermissions(permissionSet);
