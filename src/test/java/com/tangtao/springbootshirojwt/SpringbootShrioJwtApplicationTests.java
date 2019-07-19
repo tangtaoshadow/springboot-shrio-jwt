@@ -1,4 +1,4 @@
-package com.tangtao.springbootshriojwt;
+package com.tangtao.springbootshirojwt;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
