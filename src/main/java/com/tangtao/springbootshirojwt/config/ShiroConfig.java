@@ -101,6 +101,7 @@ public class ShiroConfig {
         return securityManager;
     }
 
+
     /**
      * 添加注解支持
      */
@@ -126,6 +127,7 @@ public class ShiroConfig {
 
         return advisor;
     }
+
 
     @Bean
     public LifecycleBeanPostProcessor lifecycleBeanPostProcessor() {

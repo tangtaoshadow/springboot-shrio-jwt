@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(value = "com.tangtao.springbootshriojwt.mapper")
+@MapperScan(value = "com.tangtao.springbootshirojwt.mapper")
 public class SpringbootShrioJwtApplication {
 
     public static void main(String[] args) {

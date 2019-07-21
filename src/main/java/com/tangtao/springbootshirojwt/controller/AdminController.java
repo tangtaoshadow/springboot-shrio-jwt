@@ -16,6 +16,7 @@ import java.util.List;
 @RequestMapping("/admin")
 public class AdminController {
 
+
     private final UserMapper userMapper;
     private final ResultMap resultMap;
 
